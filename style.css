@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7.8em;
+}
+.rating,
+.thankyou {
+  position: relative;
+  background-color: hsl(213, 19%, 18%);
+  color: white;
+  max-width: 21em;
+  height: 21.5em;
+  border-radius: 18px;
+  padding: 1.5em;
+}
+#star {
+  border-radius: 50px;
+  margin: 5px;
+  background-color: hsla(213, 9%, 40%, 0.674);
+  margin-left: 1em;
+  height: 2em;
+  width: 2em;
+  padding: 7px;
+}
+h2 {
+  margin-top: 0.3em;
+  font-weight: 700;
+}
+p {
+  margin-top: 0.8em;
+  font-weight: 300;
+  color: hsl(217, 12%, 63%);
+}
+.rating-btn {
+  margin-top: 0.8em;
+}
+button {
+  padding: 5px;
+  height: 3em;
+  width: 3em;
+  margin: 7px;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  outline: none;
+  background-color: hsla(213, 9%, 40%, 0.674);
+  color: hsl(217, 12%, 63%);
+}
+.submit {
+  font-weight: 600;
+  color: white;
+  margin-top: 1em;
+  height: 2.8em;
+  width: 20.5em;
+  border-radius: 20px;
+  background-color: hsl(25, 97%, 53%);
+}
+/*on hover*/
+
+.submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  transition: 0.6s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 1%, 70%);
+  transition: 1s ease-out;
+  cursor: pointer;
+}
+button .active {
+  background-color: hsla(0, 1%, 71%, 0.737);
+  color: #fff;
+}
+/* thankyou state*/
+.hidden {
+  display: none;
+}
+#thanks {
+  margin-left: 3em;
+}
+h3 {
+  width: 13em;
+  padding: 0.5em;
+  background-color: hsla(213, 9%, 40%, 0.674);
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  font-weight: 100;
+  font-size: medium;
+  color: hsl(25, 97%, 53%);
+  margin-left: 2.3em;
+  margin-top: 1em;
+}
+#thanks-h3 {
+  text-align: center;
+  margin-top: 0.8em;
+}
+#thanks-p {
+  text-align: center;
+}
+#thanks-h2 {
+  text-align: center;
+  margin-top: 0.8em;
+}
