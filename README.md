@@ -1,4 +1,4 @@
-# Intractive-rating
+# Interactive-rating
 
 ## Overview
 
