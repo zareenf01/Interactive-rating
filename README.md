@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://zareenf01.github.io/Intractive-rating/)
+- Live Site URL: (https://zareenf01.github.io/Interactive-rating/)
 
 ### Built with
 
